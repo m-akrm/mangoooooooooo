@@ -1,4 +1,4 @@
---upgrade pip setuptools wheel
+/opt/render/project/src/.venv/bin/python3.7 -m pip install --upgrade pip
 fastapi==0.88.0
 uvicorn==0.20.0
 numpy
