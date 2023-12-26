@@ -1,0 +1,5 @@
+apt-get install libgtk-3-dev -y
+apt-get install libboost-all-dev -y
+apt-get install build-essential cmake -y
+pip install -r requiremnets.txt
+gunicorn -k uvicorn.workers.UvicornWorker upp:app
