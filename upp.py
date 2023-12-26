@@ -42,4 +42,3 @@ async def create_upload_file(file: UploadFile = File(...)):
 
 
 
-uvicorn.run(app, host="127.0.0.1", port=8000)
